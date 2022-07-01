@@ -7,6 +7,7 @@ public class GamblerUC2 {
         Random random = new Random();
         int number = random.nextInt(2);
         System.out.println(number);
+
         if (number == 1) {
             System.out.println("Gambler win $1");
         }else{

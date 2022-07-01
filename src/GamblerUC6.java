@@ -4,7 +4,7 @@ public class GamblerUC6 {
         int[] rand_array = new int[30];
         for(int i=0; i<20; i++){
             Random random = new Random();
-            int rand_number = random.nextInt(100);
+            int rand_number = random.nextInt(100);     //number of games he played out of 100 each for $1
             System.out.println(rand_number);
 
             int daily_stake=100;
